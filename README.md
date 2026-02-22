@@ -1,10 +1,6 @@
-# Nuxt Minimal Starter
+# Nuxt4 Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
+測試中的專案
 
 ## dev
 
