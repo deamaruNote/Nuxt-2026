@@ -1,0 +1,16 @@
+image: node:20
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - npm ci
+    - npx nuxi generate
+    - cp -r .output/public/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
