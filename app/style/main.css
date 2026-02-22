@@ -1,0 +1,8 @@
+:root{
+    --major-bg: #222222;
+    --minor: #17db96;
+}
+body{
+    background-color: var(--major-bg);
+    color: var(--minor);
+}
