@@ -1,4 +1,3 @@
-git checkout main
 git add .
 
 # 取得日期時間
