@@ -1,0 +1,1 @@
+:root{--major-bg:#222;--minor:#17db96}body{background-color:var(--major-bg);color:var(--minor)}.nav-link{margin-right:12px}button{background:#333;border:none;border-radius:5px;color:#fff;cursor:pointer;padding:2px 30px}

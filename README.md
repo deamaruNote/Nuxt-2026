@@ -13,4 +13,6 @@ node .output/server/index.mjs
 
 ```
 npx nuxi generate
+npx serve .output/public
+
 ```
