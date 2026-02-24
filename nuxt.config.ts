@@ -12,6 +12,10 @@ export default defineNuxtConfig({
   },
   // build
   nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/'], // 需要 pre-render 的路由
+    },
     output: {
       dir: 'dist',
       publicDir: 'dist',
