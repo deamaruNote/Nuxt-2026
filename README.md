@@ -12,7 +12,14 @@ node .output/server/index.mjs
 ## build
 
 ```
+npm install
 npx nuxi generate
 npx serve .output/public
 
+```
+
+## delete git repo & repeat files
+
+```
+find . -name "* 2*" -exec rm -rf {} \;
 ```
