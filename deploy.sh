@@ -1,6 +1,16 @@
-# git push origin --delete gh-pages
-git checkout -B gh-pages 
-cp -r dist/* . 
-git add . 
-git commit -m "Reset Website" 
-git push -f origin gh-pages
+# 在 main 分支
+npm run generate   # 生成 dist/
+
+# 切到 gh-pages
+git checkout gh-pages
+
+# 清掉舊檔
+git rm -rf .
+
+# 將 dist/ 複製過來
+cp -r ../dist/* ./
+
+# commit & push
+git add .
+git commit -m "Deploy clean Nuxt site"
+git push origin gh-pages --force
