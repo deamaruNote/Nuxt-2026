@@ -4,11 +4,6 @@ export default defineNuxtConfig({
   css: [
     '~/style/main.css'
   ],
-<<<<<<< HEAD
-  app: {
-    baseURL: '/Nuxt-2026/',
-    buildAssetsDir: '/_nuxt/'
-=======
   // app: {
   //   baseURL: '/Nuxt-2026/'
   // },
@@ -24,7 +19,6 @@ export default defineNuxtConfig({
   },
   generate: {
     dir: 'dist'
->>>>>>> 04caedb (Update - 2026-02-24_12-56)
   },
   devtools: { enabled: true }
 })
